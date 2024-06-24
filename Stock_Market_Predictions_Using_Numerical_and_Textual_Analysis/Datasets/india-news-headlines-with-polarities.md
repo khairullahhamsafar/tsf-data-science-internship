@@ -4,13 +4,14 @@ This repository contains a dataset of news headlines from India with sentiment p
 
 ## Dataset Description
 
-The dataset consists of news headlines collected from various sources. The original dataset did not have any sentiment labels. Using GPT-3.5, I extracted polarity scores for each headline, indicating whether the sentiment is positive, negative, or neutral.
+The dataset consists of news headlines collected from various sources. The original dataset did not have any sentiment labels. Using nlptown's pretrained bert-base-multilingual-uncased-sentiment model (known as BERT), I extracted polarity scores for each headline, indicating whether the sentiment is positive, negative, or neutral.
 
 ## Accessing the Dataset
 
 Due to the large size of the dataset, it is hosted on Google Drive. You can download the dataset from the following link:
 
-[Download the dataset from Google Drive](https://drive.google.com/file/d/1sWJGP4uBybR9LYA6Nim0plnoOE7jzUCS/view?usp=sharing)
+1. [Google Drive: Original Dataset Link](https://drive.google.com/file/d/1Pl5_1iRbdcZTgzN21fPEZmwXmf4eZVOJ/view?usp=sharing)
+2. [Google Drive: Sentiment Extracted Dataset Link](https://drive.google.com/file/d/1O9WWweR7BD6REPqFPznMNkTtanBrX2e5/view?usp=sharing)
 
 ## Usage
 
@@ -29,7 +30,10 @@ import pandas as pd
 file_path = 'path/to/india-news-headlines-with-polarities.csv'
 
 # Load the dataset.
-df = pd.read_csv(file_path)
+data = pd.read_csv(file_path)
+
+# Convert into a DataFrame.
+df = pd.DataFrame(data)
 
 # Display the first few rows.
 print(df.head())
