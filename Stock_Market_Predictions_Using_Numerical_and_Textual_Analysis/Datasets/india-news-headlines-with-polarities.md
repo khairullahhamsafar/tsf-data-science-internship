@@ -79,4 +79,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-If you have any questions or need further assistance, please feel free to contact me at [khairullahhamsafar@gmail.com].
+If you have any questions or need further assistance, please feel free to contact me through [my Linked-in profile](https://www.linkedin.com/in/khairullah-hamsafar), OR drop a mail to me at <a href="mailto:khairullahhamsafar@gmail.com">khairullahhamsafar@gmail.com</a>.
