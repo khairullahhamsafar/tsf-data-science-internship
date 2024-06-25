@@ -4,7 +4,7 @@ This repository contains a dataset of news headlines from India with sentiment p
 
 ## Dataset Description
 
-The dataset consists of news headlines collected from times of india by Harvard Dataverse. The original dataset did not have any sentiment labels. Using nlptown's pretrained bert-base-multilingual-uncased-sentiment model (known as BERT), I extracted polarity scores for each headline, indicating whether the sentiment is positive, negative, or neutral.
+The dataset consists of news headlines collected from times of india by [Harvard Dataverse](https://dataverse.harvard.edu/). The original dataset did not have any sentiment labels. Using nlptown's pretrained bert-base-multilingual-uncased-sentiment model (known as BERT), I extracted polarity scores for each headline, indicating whether the sentiment is positive, negative, or neutral.
 
 ## Accessing the Dataset
 
